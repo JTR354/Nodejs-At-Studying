@@ -1,13 +1,12 @@
 const action = process.argv[process.argv.length - 1]
 const compunterAction = ~~(Math.random() * 3 + 1)
-const actionList = {
-  rock: 1,
-  scissor: 2,
-  paper: 3
-}
+var {Enum} = require('../../utils/tools')
+const actionList = Enum(['rock=1', 'scissor', 'paper'])
 if (!actionList[action]) {
   console.error('请出rock/scissor/paper')
   return
+} else {
+  console.log(`电脑出${actionList[compunterAction]}`)
 }
 if (actionList[action] === compunterAction) {
   console.log('平局')
