@@ -1,23 +1,7 @@
 {
-  "name": "nodejs-at-studying",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest utils/tools.test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JTR354/Nodejs-At-Studying.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JTR354/Nodejs-At-Studying/issues"
-  },
-  "homepage": "https://github.com/JTR354/Nodejs-At-Studying#readme",
+  "name": "root",
+  "private": true,
   "devDependencies": {
-    "jest": "^26.0.1"
+    "lerna": "^3.22.1"
   }
 }
